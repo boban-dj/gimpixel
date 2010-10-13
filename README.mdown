@@ -1,6 +1,9 @@
 # What is GIMPixel?
 
 GIMPixel is a set of brushes, palettes, and image templates designed to turn GIMP into an enjoyable piece of pixeling software. It's still in its infancy, so if you know a thing or two about configuring GIMP or would like to contribute brushes, palettes, or more, don't hesitate to join in!
+<<<<<<< HEAD
 
 ## Usage
 To use GIMPixel, you must run GIMP after changing the "GIMP2_DIRECTORY" environment variable. To do so, just run something like `GIMP2_DIRECTORY=.gimpixel gimp` and it should work without messing with your existing GIMP configuration.
+=======
+>>>>>>> 0366146471c99705a0c176a3c7484a89693448d0
