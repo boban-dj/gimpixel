@@ -1,0 +1,66 @@
+# GIMP templaterc
+# 
+# This file will be entirely rewritten each time you exit.
+
+(GimpTemplate "NES (256x224)"
+    (width 256)
+    (height 224)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+(GimpTemplate "SNES (512x448)"
+    (width 512)
+    (height 448)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+(GimpTemplate "GB/GBC (160x144)"
+    (width 160)
+    (height 144)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+(GimpTemplate "GBA (240x160)"
+    (width 240)
+    (height 160)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+(GimpTemplate "NDS Single (256x192)"
+    (width 256)
+    (height 192)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+(GimpTemplate "NDS Dual (256x384)"
+    (width 256)
+    (height 384)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+
+# end of templaterc
