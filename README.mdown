@@ -3,7 +3,7 @@
 GIMPixel is a set of brushes, palettes, and image templates designed to turn [GIMP](http://gimp.org) into an enjoyable piece of pixeling software. It's still in its infancy, so if you know a thing or two about configuring GIMP or would like to contribute brushes, palettes, or more, don't hesitate to join in!
 
 For a quick look at what GIMPixel provides, check out the features.png file:
-![A summary of features that GIMPixel offers](http://github.com/sporkbox/gimpixel/raw/master/features.png "Isn't it awesome?")
+![A summary of features that GIMPixel offers](https://github.com/sporkbox/gimpixel/raw/master/features.png "Isn't it awesome?")
 
 ## Usage
 To use GIMPixel, you must run GIMP after changing the "GIMP2\_DIRECTORY" environment variable. To do so, just run something like `GIMP2_DIRECTORY=.gimpixel gimp` and it should work without messing with your existing GIMP configuration.
@@ -14,9 +14,18 @@ If you decide that you'd like to replace your existing GIMP configuration with G
 Adding the following to ~/.fluxbox/menu should work:  
 `[exec] (GIMPixel) {GIMP2_DIRECTORY=~/.gimpixel gimp}`
 
+### Bash script
+Put the following into a text file and save it as an executable shell script:
+~~~~~
+#!/bin/bash
+export GIMP2_DIRECTORY=~/.gimpixel
+exec gimp
+~~~~~
+
+Name it something like `gimpixel` and you'll have a quicklauncher.
+
 # Roadmap
 * Provide execution directions for other common window managers or environments.
 * Add some additional interesting or useful brushes.
 * Find a way to set image or color bit-depth modes.
 * Include more palettes.
-* Begin the wiki and include some GIMP pixeling tips.
