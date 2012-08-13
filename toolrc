@@ -100,7 +100,7 @@
     (stock-id "gimp-tool-dodge")
     (visible no))
 (GimpToolInfo "gimp-desaturate-tool"
-    (stock-id "gimp-convert-grayscale")
+    (stock-id "gimp-tool-desaturate")
     (visible no))
 (GimpToolInfo "gimp-color-balance-tool"
     (stock-id "gimp-tool-color-balance")
@@ -129,5 +129,8 @@
 (GimpToolInfo "gimp-gegl-tool"
     (stock-id "gimp-gegl")
     (visible no))
+(GimpToolInfo "gimp-cage-tool"
+    (stock-id "gimp-tool-cage")
+    (visible yes))
 
 # end of toolrc
