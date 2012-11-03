@@ -44,7 +44,7 @@
     (visible yes))
 (GimpToolInfo "gimp-color-picker-tool"
     (stock-id "gimp-tool-color-picker")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-iscissors-tool"
     (stock-id "gimp-tool-iscissors")
     (visible no))
@@ -56,13 +56,13 @@
     (visible no))
 (GimpToolInfo "gimp-zoom-tool"
     (stock-id "gimp-tool-zoom")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-measure-tool"
     (stock-id "gimp-tool-measure")
     (visible no))
 (GimpToolInfo "gimp-move-tool"
     (stock-id "gimp-tool-move")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-shear-tool"
     (stock-id "gimp-tool-shear")
     (visible no))
