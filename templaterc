@@ -2,7 +2,7 @@
 # 
 # This file will be entirely rewritten each time you exit.
 
-(GimpTemplate "NES (256x224)"
+(GimpTemplate "NES (256×224)"
     (width 256)
     (height 224)
     (unit pixels)
@@ -12,7 +12,7 @@
     (image-type rgb)
     (fill-type transparent-fill)
     (comment ""))
-(GimpTemplate "SNES (512x448)"
+(GimpTemplate "SNES (512×448)"
     (width 512)
     (height 448)
     (unit pixels)
@@ -22,7 +22,7 @@
     (image-type rgb)
     (fill-type transparent-fill)
     (comment ""))
-(GimpTemplate "GB/GBC (160x144)"
+(GimpTemplate "GB/GBC (160×144)"
     (width 160)
     (height 144)
     (unit pixels)
@@ -32,7 +32,7 @@
     (image-type rgb)
     (fill-type transparent-fill)
     (comment ""))
-(GimpTemplate "GBA (240x160)"
+(GimpTemplate "GBA (240×160)"
     (width 240)
     (height 160)
     (unit pixels)
@@ -42,7 +42,7 @@
     (image-type rgb)
     (fill-type transparent-fill)
     (comment ""))
-(GimpTemplate "NDS Single (256x192)"
+(GimpTemplate "NDS Single (256×192)"
     (width 256)
     (height 192)
     (unit pixels)
@@ -52,9 +52,29 @@
     (image-type rgb)
     (fill-type transparent-fill)
     (comment ""))
-(GimpTemplate "NDS Dual (256x384)"
+(GimpTemplate "NDS Dual (256×384)"
     (width 256)
     (height 384)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+(GimpTemplate "3DS Top (400×240)"
+    (width 400)
+    (height 240)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+(GimpTemplate "3DS Bottom (320×240)"
+    (width 320)
+    (height 240)
     (unit pixels)
     (xresolution 72.000000)
     (yresolution 72.000000)
