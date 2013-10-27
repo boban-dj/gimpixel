@@ -25,7 +25,6 @@ Put the following into a text file and save it as an executable shell script:
 Name it something like `gimpixel` and you'll have a quicklauncher.
 
 # Roadmap
+* Support color bit-depth setting
 * Provide execution directions for other common window managers or environments.
 * Add some additional interesting or useful brushes.
-* Find a way to set image or color bit-depth modes.
-* Include more palettes.
